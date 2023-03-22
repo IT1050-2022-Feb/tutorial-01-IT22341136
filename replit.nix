@@ -1,6 +1,8 @@
 { pkgs }: {
 	deps = [
-		pkgs.run.sh
+		pkgs.libgccjit
+  pkgs.libgccjit
+  pkgs.run.sh
   pkgs../Tute01
   pkgs.gcc Tute01.c -o Tute01
   pkgs../run.sh
